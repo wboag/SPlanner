@@ -1,0 +1,547 @@
+Introduction to Computer Science and Programming (Spring 2011)
+6.00SC
+N/A
+UNKNOWN
+----------
+Introduction to Computer Science and Programming (Fall 2008)
+6.00
+This subject is aimed at students with little or no programming experience .
+----------
+Introduction to Electrical Engineering and Computer Science I
+6.01SC
+At MIT, 6.01 has no formal prerequisites. Students are expected to take 8.02 Physics II: Electricity and Magnetism as a co-requisite.
+----------
+Structure and Interpretation of Computer Programs
+6.001
+N/A
+UNKNOWN
+----------
+Circuits and Electronics
+6.002
+8.02 Physics II: Electricity and Magnetism , and 18.03 Differential Equations .
+8.02
+18.03
+----------
+Signals and Systems
+6.003
+6.02 Introduction to EECS II
+6.02
+----------
+Computation Structures
+6.004
+Students should feel comfortable using computers. A rudimentary knowledge of programming language concepts (C language or 6.001) and electrical fundamentals (6.002) is assumed. Each student must have an Athena account to access the software used to complete the lab assignments.
+6.001
+6.002
+----------
+Elements of Software Construction (Fall 2011)
+6.005
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Elements of Software Construction (Fall 2008)
+6.005
+N/A
+UNKNOWN
+----------
+Introduction to Algorithms (Fall 2011)
+6.006
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Introduction to Algorithms (Spring 2008)
+6.006
+A strong understanding of programming in Python™ and a solid background in discrete mathematics are necessary prerequisites to this course.
+6.042J
+----------
+Electromagnetic Energy: From Motors to Lasers
+6.007
+The formal prerequisites are 8.02 or 6.01 . Students concurrently enrolled in 6.02 or 6.002 may find that 6.007 complements those courses.
+8.02
+6.01
+----------
+Introduction to Communication, Control, and Signal Processing (Spring 2010)
+6.011
+The essential prerequisites (not co-requisites) for this course are mastery of 6.003 and 6.041 (or equivalents), and of the 18.03 material related to solving linear, time-invariant systems of first-order differential equations using eigenvalues and eigenvectors. You should certainly not plan on taking 6.011 if you got less than a C in 6.003 or 6.041. If you did get a C (and maybe even if you got a higher grade than that), some further remedial work in the corresponding subject is important, starting immediately. If you are unsteady with 6.003, 6.041, or the relevant 18.03 material, you can be sure that 6.011 will expose that fact, sooner or later.
+6.003
+6.041
+18.03
+----------
+Introduction to Communication, Control, and Signal Processing (Spring 2004)
+6.011
+N/A
+UNKNOWN
+----------
+Microelectronic Devices and Circuits (Spring 2009)
+6.012
+N/A
+UNKNOWN
+----------
+Microelectronic Devices and Circuits (Fall 2009)
+6.012
+N/A
+UNKNOWN
+----------
+Microelectronic Devices and Circuits (Fall 2005)
+6.012
+6.003 (corequisite), 8.02, 18.03
+8.02
+18.03
+----------
+Electromagnetics and Applications (Spring 2009)
+6.013
+18.01 , 18.02 , or equivalent; 8.01 , 8.02 , or equivalent; and 6.002 and 6.00 . More specifically they include complex numbers, vector operators, simple matrix operations, basic calculus, RLC circuits, Maxwell's equations, and Fourier transforms.
+18.02
+8.02
+6.02
+----------
+Electromagnetics and Applications (Fall 2005)
+6.013
+18.01, 18.02, or equivalent; 8.01, 8.02, or equivalent; 6.002 and 6.003 (more precisely: complex numbers, vector operators, simple matrix operations, basic calculus, RLC circuits, Maxwell's equations, and Fourier transforms).
+18.02
+8.02
+6.02
+----------
+Introduction to EECS II: Digital Communication Systems
+6.02
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Quantitative Physiology: Cells and Tissues (Fall 2004)
+6.021J
+N/A
+UNKNOWN
+----------
+Quantitative Physiology: Organ Transport Systems
+6.022J
+N/A
+UNKNOWN
+----------
+Fields, Forces and Flows in Biological Systems
+6.023J
+N/A
+UNKNOWN
+----------
+Molecular, Cellular, and Tissue Biomechanics
+6.024J
+N/A
+UNKNOWN
+----------
+Introduction to Bioengineering (BE.010J)
+6.025J
+N/A
+UNKNOWN
+----------
+Computer System Engineering
+6.033
+6.004 Computation Structures
+6.004
+----------
+Artificial Intelligence (Fall 2010)
+6.034
+N/A
+UNKNOWN
+----------
+Artificial Intelligence (Spring 2005)
+6.034
+6.001: We will have regular assignments that expect you to be able to read and write Scheme. This is the only formal pre-requisite.
+6.001
+----------
+Computer Language Engineering
+6.035
+6.170 and proficiency in Java
+6.170
+----------
+Computer Language Engineering (SMA 5502)
+6.035
+MIT course 6.170 and proficiency in Java
+6.170
+----------
+Probabilistic Systems Analysis and Applied Probability (Fall 2010)
+6.041
+The prerequisite for 6.041/6.431 is 18.02 , or a year of college-level calculus for those with undergraduate degrees from other universities.
+18.02
+----------
+Probabilistic Systems Analysis and Applied Probability (Spring 2006)
+6.041
+The prerequisite for 6.041 and 6.431 is 18.02 , or a year of college level calculus for those with undergraduate degrees from other universities. Students who have not completed the prerequisite with a grade of A, B, C or P may not enroll.
+18.02
+----------
+Probabilistic Systems Analysis and Applied Probability (Fall 2013)
+6.041SC
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Mathematics for Computer Science (Spring 2010)
+6.042J
+N/A
+UNKNOWN
+----------
+Mathematics for Computer Science (Fall 2010)
+6.042J
+UNKNOWN
+The only prerequisite is 18.01 . If you have already taken 18.310 or 6.046 , then you should not take 6.042.
+18.01
+----------
+Mathematics for Computer Science (Spring 2005)
+6.042J
+N/A
+UNKNOWN
+----------
+Mathematics for Computer Science (Fall 2005)
+6.042J
+The prerequisite for the course is 18.01 . You should be familiar with sequences and series, limits, and integration and differentiation of univariate functions.
+18.01
+----------
+Automata, Computability, and Complexity
+6.045J
+We assume that you have taken 6.042 Mathematics for Computer Science , or have equivalent mathematical preparation. In particular, we will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
+6.042J
+----------
+Design and Analysis of Algorithms
+6.046J
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Introduction to Algorithms (SMA 5503)
+6.046J
+A strong understanding of programming and a solid background in discrete mathematics, including probability, are necessary prerequisites to this course.
+6.042J
+----------
+Computational Biology: Genomes, Networks, Evolution (Fall 2008)
+6.047
+6.006 Introduction to Algorithms , 7.01 Introductory Biology , 6.041 Probabilistic Systems Analysis
+6.006 6.046J
+7.01
+6.041
+----------
+Information and Entropy
+6.050J
+Physics I: Classical Mechanics ( 8.01 , 8.012 , 8.01L , 8.01T , or advanced standing credit)
+8.01 8.012 8.01L 8.01T
+----------
+The Art of Approximation in Science and Engineering
+6.055J
+The prerequisites for this course are Physics I (8.01 Mechanics, GIR) and Calculus I (18.01 Single Variable Calculus, GIR) . A dose of curiosity and open-mindedness to attack problems about which you know little are recommended.
+8.01
+18.01
+----------
+Introduction to Electric Power Systems (Spring 2011)
+6.061
+The prerequisites for this course are 6.002 Circuits and Electronics and 6.013 Electromagnetics and Applications or permission of the instructor. Please consult with the instructor if there are any questions about preparation.
+6.002
+6.013
+----------
+Introduction to Electronics, Signals, and Measurement
+6.071J
+N/A
+UNKNOWN
+----------
+Creating Video Games
+6.073J
+CMS.608 Game Design or 6.01 Introduction to Electrical Engineering and Computer Science I .
+6.01
+----------
+Introduction to Convex Optimization (Fall 2009)
+6.079
+N/A
+UNKNOWN
+----------
+Projects in Microscale Engineering for the Life Sciences
+6.07J
+N/A
+UNKNOWN
+----------
+Great Ideas in Theoretical Computer Science (Spring 2008)
+6.080
+This course is designed for undergraduates (both under- and upperclassmen) in computer science and related areas of science and engineering. Others are welcome to take the course but might wish to discuss with the instructor. There are no formal prerequisites. The only prerequisite is some facility with mathematical reasoning: that is, the ability to construct valid mathematical arguments (including proofs by contradiction, induction, etc.) and to recognize errors in invalid ones. Such facility might be gained, for example, by taking 6.042. Programming experience is helpful but not essential; the course has no programming assignments.
+----------
+Practical Programming in C
+6.087
+This course assumes a basic understanding of the principles of programming. Prior knowledge of C is neither expected nor desired. The primary prerequisite of this course is 6.00 Introduction to Computer Science and Programming , 1.00 Introduction to Computers and Engineering Problem Solving , 6.01 Introduction to Electrical Engineering and Computer Science I , or another introductory programming course at MIT. If you are unsure of the adequacy of your programming background, please speak to a member of the course staff as soon as possible. As the duration of this course is only three weeks, the material will be covered at a relatively fast pace, and catching up will be difficult.
+6.00 1.00 6.01
+----------
+Introduction to C Memory Management and C++ Object-Oriented Programming
+6.088
+We target this course to those with some degree of comfort programming (in Python, Scheme, Java, etc.) who want to become comfortable with using C/C++. No C/C++ experience expected.
+6.001
+----------
+Great Ideas in Theoretical Computer Science (Spring 2008)
+6.089
+This course is designed for undergraduates (both under- and upperclassmen) in computer science and related areas of science and engineering. Others are welcome to take the course but might wish to discuss with the instructor. There are no formal prerequisites. The only prerequisite is some facility with mathematical reasoning: that is, the ability to construct valid mathematical arguments (including proofs by contradiction, induction, etc.) and to recognize errors in invalid ones. Such facility might be gained, for example, by taking 6.042. Programming experience is helpful but not essential; the course has no programming assignments.
+6.042J
+----------
+Building Programming Experience: A Lead-In to 6.001
+6.090
+N/A
+UNKNOWN
+----------
+Hands-On Introduction to Electrical Engineering Lab Skills
+6.091
+N/A
+UNKNOWN
+----------
+Introduction to Programming in Java
+6.092
+N/A
+UNKNOWN
+----------
+Java Preparation for 6.170
+6.092
+N/A
+UNKNOWN
+----------
+Bioinformatics and Proteomics
+6.092
+N/A
+UNKNOWN
+----------
+Introduction to MATLAB
+6.094
+N/A
+UNKNOWN
+----------
+Introduction to C++
+6.096
+N/A
+UNKNOWN
+----------
+Algorithms for Computational Biology
+6.096
+6.001 (Structure and Interpretation of Computer Programs), 7.01
+6.001
+7.01
+----------
+Fundamentals of Photonics: Quantum Electronics (Spring 2006)
+6.097
+6.003 , 6.013 or 8.07 .
+6.003 6.013 8.07
+----------
+Street-Fighting Mathematics
+6.099
+N/A
+UNKNOWN
+----------
+Introductory Analog Electronics Laboratory
+6.101
+N/A
+UNKNOWN
+----------
+Introductory Digital Systems Laboratory (Spring 2006)
+6.111
+Prior digital design experience is not required 6.004 is not a prerequisite! Take 6.004 before 6.111 or Take 6.004 after 6.111 or Take both in the same term Must have basic background in circuit theory Some basic material might be a review for those who have taken 6.004
+----------
+Introductory Digital Systems Laboratory (Fall 2002)
+6.111
+N/A
+UNKNOWN
+----------
+Micro/Nano Processing Technology
+6.152J
+Permission of instructor.
+----------
+Modern Optics Project Laboratory (Fall 2005)
+6.161
+The prerequisite is 6.003 . Exceptions can be made by the Lecturer.
+6.003
+----------
+Strobe Project Laboratory
+6.163
+N/A
+UNKNOWN
+----------
+Software Studio
+6.170
+N/A
+UNKNOWN
+----------
+Laboratory in Software Engineering
+6.170
+N/A
+UNKNOWN
+----------
+Software Engineering for Web Applications
+6.171
+This is a senior-level class at MIT where we expect the average student to be working on a bachelor's or master's degree in computer science, to have taken our introduction to computer science ( 6.001 ), to have taken our core software engineering class ( 6.170 ), and to have done at least some programming during summer jobs.
+6.001
+6.170
+----------
+Performance Engineering of Software Systems
+6.172
+N/A
+UNKNOWN
+----------
+Mobile Autonomous Systems Laboratory
+6.186
+N/A
+UNKNOWN
+----------
+A Gentle Introduction to Programming Using Python (January IAP 2011)
+6.189
+N/A
+UNKNOWN
+----------
+A Gentle Introduction to Programming Using Python (January IAP 2008)
+6.189
+N/A
+UNKNOWN
+----------
+Multicore Programming Primer
+6.189
+N/A
+UNKNOWN
+----------
+Networks
+6.207J
+The prerequisites for this course are basic probability at the level of 6.041 Probabilistic Systems Analysis and 14.30 Introduction to Statistical Method in Economics . Since the course is aiming at developing a systematic understanding and analysis of networks and processes over networks, the students will be expected to work with mathematical models and analytical reasoning.
+6.041
+----------
+Autonomous Robot Design Competition
+6.270
+N/A
+UNKNOWN
+----------
+Parallel Computing
+6.338J
+18.06 Linear Algebra or 18.701 Algebra I .
+18.06 18.701
+----------
+The Battlecode Programming Competition
+6.370
+N/A
+UNKNOWN
+----------
+Robocraft Programming Competition
+6.370
+N/A
+UNKNOWN
+----------
+Probabilistic Systems Analysis and Applied Probability (Fall 2010)
+6.431
+The prerequisite for 6.041/6.431 is 18.02 , or a year of college-level calculus for those with undergraduate degrees from other universities.
+18.02
+----------
+Quantitative Physiology: Cells and Tissues (Fall 2004)
+6.521J
+N/A
+UNKNOWN
+----------
+Modern Optics Project Laboratory (Fall 2005)
+6.637
+The prerequisite is 6.003 . Exceptions can be made by the Lecturer.
+6.003
+----------
+Introduction to Nanoelectronics (Spring 2010)
+6.701
+6.007 Electromagnetic Energy: From Motors to Lasers , or 6.003 Signals and Systems .
+6.007 6.003
+----------
+Machine Vision (Fall 2004)
+6.801
+N/A
+UNKNOWN
+----------
+The Human Intelligence Enterprise (Spring 2006)
+6.803
+N/A
+UNKNOWN
+----------
+The Human Intelligence Enterprise (Spring 2002)
+6.803
+N/A
+UNKNOWN
+----------
+Computational Cognitive Science
+6.804J
+The pre-requisite is a class in probability or statistics (e.g., 9.07 , Statistical Methods in Brain and Cognitive Science, 18.05 , Introduction to Probability and Statistics, 6.041 , Probabilistic Systems Analysis and Applied Probability). A class in artificial intelligence or machine learning would be helpful but is not necessary, as the relevant material will be reviewed in this class. Experience in programming (particularly in a high-level language such as MATLAB ) is desirable.
+9.07 18.05 6.041
+----------
+Ethics and the Law on the Electronic Frontier (Fall 2005)
+6.805
+N/A
+UNKNOWN
+----------
+Ethics and the Law on the Electronic Frontier (Fall 2005)
+6.806
+N/A
+UNKNOWN
+----------
+User Interface Design and Implementation (Spring 2011)
+6.813
+6.005 Elements of Software Construction
+6.005
+----------
+Database Systems (Fall 2010)
+6.814
+Students should have taken 6.033 Introduction to Systems or equivalent as well as 6.006 Introduction to Algorithms or equivalent. If you do not have experience in these subjects and would like to take the course, please contact the instructor. Prior database experience is not required.
+6.033
+----------
+Database Systems (Fall 2010)
+6.830
+Students should have taken 6.033 Introduction to Systems or equivalent as well as 6.006 Introduction to Algorithms or equivalent. If you do not have experience in these subjects and would like to take the course, please contact the instructor. Prior database experience is not required.
+6.033
+----------
+User Interface Design and Implementation (Spring 2011)
+6.831
+6.005 Elements of Software Construction
+6.005
+----------
+Computer Graphics
+6.837
+It is useful if you have knowledge of the following:
+18.02
+18.06 18.700
+----------
+Inventions and Patents
+6.901
+N/A
+UNKNOWN
+----------
+Engineering Innovation and Design
+6.902J
+N/A
+UNKNOWN
+----------
+Patents, Copyrights, and the Law of Intellectual Property
+6.903J
+There are no prerequisites for this class.
+----------
+Transcribing Prosodic Structure of Spoken Utterances with ToBI
+6.911
+N/A
+UNKNOWN
+----------
+Introduction to Copyright Law
+6.912
+N/A
+UNKNOWN
+----------
+Management in Engineering
+6.930
+N/A
+UNKNOWN
+----------
+Fundamentals of Photonics: Quantum Electronics (Spring 2006)
+6.974
+6.003 , 6.013 or 8.07 .
+6.003 6.013 8.07
+----------
+NextLab I: Designing Mobile Technologies for the Next Billion Users
+6.976
+N/A
+UNKNOWN
+----------
+Nanomaker
+6.S079
+N/A
+UNKNOWN
+----------
+Effective Programming in C and C++
+6.S096
+N/A
+UNKNOWN
+----------
+Introduction to C and C++
+6.S096
+N/A
+UNKNOWN
+----------

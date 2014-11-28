@@ -1,0 +1,381 @@
+Single Variable Calculus (Fall 2010)
+18.01SC
+Single Variable Calculus is a first-year, first-semester course at MIT. The prerequisites are high school algebra and trigonometry. Prior experience with calculus is helpful but not essential.
+----------
+Single Variable Calculus (Fall 2006)
+18.01
+There is no course at MIT which is a prerequisite for this course. The prerequisites are high school algebra and trigonometry. Students may also receive credit for 18.01 by transferring credit from a comparable college course taken elsewhere, or by passing an advanced standing exam.
+----------
+Single Variable Calculus (Fall 2005)
+18.01
+There is no course at MIT which is a prerequisite for this course. The prerequisites are high school algebra and trigonometry. Students may also receive credit for 18.01 by transferring credit from a comparable college course taken elsewhere, or by passing an advanced standing exam.
+----------
+Calculus with Applications
+18.013A
+A year of high school calculus or the equivalent, with a score of 4 or 5 on the AB, or the AB portion of the BC, Calculus test, or an equivalent score on a standard international exam, or a passing grade on the first half of the 18.01 Advanced Standing exam.
+18.01
+----------
+Calculus with Theory
+18.014
+We will assume a working knowledge of Calculus I ( 18.01 Single Variable Calculus ), but no familiarity with proofs or proof writing.
+18.01
+----------
+Multivariable Calculus (Fall 2010)
+18.02SC
+The prerequisite to this course is 18.01 Single Variable Calculus .
+18.01
+----------
+Multivariable Calculus (Fall 2007)
+18.02
+Single Variable Calculus (18.01)
+18.01
+----------
+Multivariable Calculus (Spring 2006)
+18.02
+Single Variable Calculus ( 18.01 )
+18.01
+----------
+Calculus of Several Variables
+18.022
+18.01 Single Variable Calculus
+18.01
+----------
+Multivariable Calculus with Theory
+18.024
+18.01 Single Variable Calculus or equivalent and permission of the instructor.
+18.01
+----------
+Differential Equations (Fall 2011)
+18.03SC
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Differential Equations (Spring 2010)
+18.03
+N/A
+UNKNOWN
+----------
+Honors Differential Equations (Spring 2009)
+18.034
+Multivariable Calculus (18.02) or other versions of Multivariable Calculus (18.02A or 18.022 or 18.023 or 18.024).
+18.02 18.02A 18.022 18.023 18.024
+----------
+Honors Differential Equations (Spring 2004)
+18.034
+Calculus (18.02) or Calculus with Theory ( 18.014 ).
+18.02 18.014
+----------
+Complex Variables with Applications (Fall 2003)
+18.04
+Differential Equations ( 18.03 ) or Honors Differential Equations ( 18.034 )
+18.03 18.034
+----------
+Complex Variables with Applications (Fall 1999)
+18.04
+N/A
+UNKNOWN
+----------
+Introduction to Probability and Statistics
+18.05
+Calculus ( 18.01 )
+18.01
+----------
+Linear Algebra (Fall 2011)
+18.06SC
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Linear Algebra (Spring 2010)
+18.06
+Multivariable Calculus (18.02)
+18.02
+----------
+Mathematics for Computer Science (Spring 2010)
+18.062J
+N/A
+UNKNOWN
+----------
+Mathematics for Computer Science (Fall 2010)
+18.062J
+The only prerequisite is 18.01 . If you have already taken 18.310 or 6.046 , then you should not take 6.042.
+18.01
+----------
+Mathematics for Computer Science (Spring 2005)
+18.062J
+N/A
+UNKNOWN
+----------
+Mathematics for Computer Science (Fall 2005)
+18.062J
+The prerequisite for the course is 18.01 . You should be familiar with sequences and series, limits, and integration and differentiation of univariate functions.
+18.01
+----------
+Linear Algebra - Communications Intensive
+18.06CI
+N/A
+UNKNOWN
+----------
+Mathematical Exposition
+18.091
+N/A
+UNKNOWN
+----------
+Street-Fighting Mathematics
+18.098
+N/A
+UNKNOWN
+----------
+Introduction to Analysis
+18.100A
+18.02 Multivariable Calculus ; 18.03 Differential Equations ; or 18.034 Honors Differential Equations
+18.02
+18.03 18.034
+----------
+Analysis I
+18.100B
+18.02 Multivariable Calculus ; 18.03 Differential Equations or 18.034 Honors Differential Equations
+18.02
+18.03 18.034
+----------
+Real Analysis
+18.100C
+18.02 Multivariable Calculus ; 18.03 Differential Equations ; or 18.034 Honors Differential Equations
+18.02
+18.03 18.034
+----------
+Analysis II
+18.101
+The official prerequisites for this course are Analysis I (18.100B), and either Algebra I (18.700 or 18.701). Students who have taken Linear Algebra (18.06) may consider this course, though 18.700 or 18.701 are preferable.
+18.100B
+18.700 18.701 18.06
+----------
+Introduction to Functional Analysis
+18.102
+Analysis I (18.100); Linear Algebra (18.06), Linear Algebra (18.700), or Algebra I (18.701)
+18.100
+18.06 18.700 18.701
+----------
+Fourier Analysis - Theory and Applications
+18.103
+Analysis I ( 18.100B )
+18.100B
+----------
+Seminar in Analysis: Applications to Number Theory
+18.104
+The prerequisite for this class is Analysis I (18.100A, 18.100B, or 18.100C). We will emphasize those topics which use methods taught in a typical first semester course in Analysis.
+18.100A 18.100B 18.100C
+----------
+Functions of a Complex Variable
+18.112
+Analysis I (18.100B) or the equivalent.
+18.100B
+----------
+Introduction to Partial Differential Equations (Fall 2011)
+18.152
+18.100 Analysis ; and one of 18.06 Linear Algebra , 18.700 Linear Algebra , or 18.701 Algebra I .
+18.100
+18.06 18.700 18.701
+----------
+Introduction to Partial Differential Equations (Fall 2005)
+18.152
+Analysis I ( 18.100C )
+18.100C
+----------
+Geometry and Quantum Field Theory
+18.238
+Advanced calculus of several variables, basic differential geometry. Knowledge of physics is not required.
+18.02
+----------
+Linear Partial Differential Equations: Analysis and Numerics
+18.303
+18.06 Linear Algebra
+18.06
+----------
+Linear Partial Differential Equations
+18.303
+Differential Equations ( 18.03 or 18.034 ). Complex Variables with Applications ( 18.04 ) or Functions of a Complex Variable ( 18.112 ) are useful, as well as previous acquaintance with the equations as they arise in scientific applications.
+18.03 18.034
+18.04 18.112
+----------
+Undergraduate Seminar in Discrete Mathematics
+18.304
+Principles of Applied Mathematics (18.310 or 18.310C), Linear Algebra (18.700), or permission of the instructor.
+18.310 18.310C
+18.700
+----------
+Principles of Applied Mathematics (Fall 2007)
+18.310C
+N/A
+UNKNOWN
+----------
+Principles of Applied Mathematics (Spring 2009)
+18.311
+Multivariable Calculus (18.02), Differential Equations (18.03) or Honors Differential Equations (18.034)
+18.02
+18.03 18.034
+----------
+Algebraic Combinatorics
+18.312
+Algebra I (18.701) or Modern Algebra (18.703)
+18.701 18.703
+----------
+Combinatorial Analysis
+18.314
+Calculus (18.02)
+18.02
+----------
+Introduction to Numerical Analysis (Spring 2012)
+18.330
+Calculus (18.01) , Calculus (18.02) , and Differential Equations (18.03) . Some exposure to linear algebra (matrices) at the level of Linear Algebra (18.06) helps, but is not required. The assignments will involve basic computer programming in the language of your choice (Matlab recommended; this class encourages you to learn Matlab if you don't already know it).
+18.01
+18.02
+18.03
+18.06
+----------
+Introduction to Numerical Analysis (Spring 2004)
+18.330
+N/A
+UNKNOWN
+----------
+Nonlinear Dynamics I: Chaos
+18.353J
+Prerequisites for this course are 8.02 Electricity and Magnetism , and 18.03 Differential Equations . Knowledge of ordinary differential equations is essential. Some linear algebra (knowledge of eigenvectors and eigenvalues) is also necessary. Having some experience with numerical computation is helpful but not necessary. This is an undergraduate course. Graduate students are reminded that this course carries no graduate credit and are encouraged to take 18.385J Nonlinear Dynamics and Chaos instead.
+8.02
+18.03 18.034
+18.06 18.700
+----------
+Introduction to Modeling and Simulation
+18.361J
+18.03 Differential Equations or 3.016 Mathematical Methods for Materials Scientists and Engineers .
+18.03 18.034 3.016
+----------
+Automata, Computability, and Complexity
+18.400J
+We assume that you have taken 6.042 Mathematics for Computer Science , or have equivalent mathematical preparation. In particular, we will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
+6.042
+----------
+Design and Analysis of Algorithms
+18.410J
+COULD-NOT-FIND-SYLLABUS
+UNKNOWN
+----------
+Introduction to Algorithms (SMA 5503)
+18.410J
+A strong understanding of programming and a solid background in discrete mathematics, including probability, are necessary prerequisites to this course.
+6.042
+----------
+Error-Correcting Codes Laboratory
+18.413
+N/A
+UNKNOWN
+----------
+Combinatorial Optimization
+18.433
+18.06 Linear Algebra or 18.700 Linear Algebra.
+18.06 18.700
+----------
+Probability and Random Variables
+18.440
+18.02 Multivariable Calculus
+18.02
+----------
+Statistics for Applications (Spring 2009)
+18.443
+Probability and Random Variables (18.440) or Probabilistic Systems Analysis (6.041) or the equivalent (one semester of calculus-based probability). The prerequisite material is also covered in the required textbook (see below), Chapters 1-5.
+18.440 6.041
+----------
+Statistics for Applications (Fall 2006)
+18.443
+Probability and Random Variables (18.440) or Probabilistic Systems Analysis (6.041)
+18.440 6.041
+----------
+Statistics for Applications (Fall 2003)
+18.443
+Probability and Random Variables (18.440) or Probabilistic Systems Analysis ( 6.041 ).
+18.440 6.041
+----------
+Linear Algebra (Fall 2013)
+18.700
+18.02 Multivariable Calculus
+18.02
+----------
+Algebra I
+18.701
+Linear Algebra (18.700) , Analysis I (18.100) , or permission of instructor.
+18.700 18.100
+----------
+Algebra II
+18.702
+Algebra I (18.701)
+18.701
+----------
+Modern Algebra
+18.703
+Multivariable Calculus (18.02)
+18.02
+----------
+Seminar in Algebra and Number Theory: Computational Commutative Algebra and Algebraic Geometry
+18.704
+Linear Algebra (18.06 or 18.700) or Algebra I (18.701)
+18.06 18.700 18.701
+----------
+Seminar in Algebra and Number Theory: Rational Points on Elliptic Curves
+18.704
+One subject in linear algebra and some experience with proofs.
+18.06 18.700 18.701
+----------
+Introduction to Representation Theory
+18.712
+The prerequisites for the course are the standard algebra sequences Algebra I and II (18.701, 18.702) or Linear Algebra and Modern Algebra (18.700, 18.703). This means that to understand this course, it is necessary and sufficient to have a strong background in linear algebra and a decent understanding of basic algebraic structures, such as groups, rings, and fields. We will prove some general results, but a lot of the attention will be paid to examples, and there will be many hands-on exercises illustrating the course.
+18.701
+18.700
+18.703
+----------
+Theory of Numbers
+18.781
+There are no formal prerequisites for the class, but some familiarity with proofs will be helpful as we'll be doing plenty of those in class and homework. However, if you aren't used to mathematical proofs, don't despair! You will hopefully pick up these skills during the course.
+----------
+Introduction to Arithmetic Geometry
+18.782
+18.702 Algebra II
+18.702
+----------
+Project Laboratory in Mathematics
+18.821
+N/A
+UNKNOWN
+----------
+Introduction to Topology
+18.901
+The prerequisite for the course is a first course in Analysis, at the level of Rudin's "Principles of Mathematical Analysis" ( 18.100B here at MIT.) This background is essential both for the knowledge of the subject matter and for the experience in formulating proofs.
+18.100B
+----------
+Seminar in Topology
+18.904
+18.901 Introduction to Topology
+18.901
+----------
+Differential Geometry
+18.950
+Analysis I (18.100) plus Linear Algebra (18.06 or 18.700) or Algebra I (18.701)
+18.100
+18.06 18.700 18.701
+----------
+Seminar in Geometry
+18.994
+N/A
+UNKNOWN
+----------
+Problem Solving Seminar
+18.S34
+N/A
+UNKNOWN
+----------
+The Art of Counting
+18.S66
+N/A
+UNKNOWN
+----------
+Introduction To MATLAB Programming
+18.S997
+There are no formal prerequisites for this course. It is intended to assist undergraduates in learning the basics of programming in general and programming MATLAB in particular. Only the very basics of programming in MATLAB will be covered, with the goal of having students become comfortable enough to continue learning MATLAB and other programming languages on their own.

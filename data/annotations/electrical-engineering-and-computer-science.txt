@@ -1,450 +1,565 @@
+Introduction to Computer Science and Programming (Spring 2011)
+6.00SC
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/
+COULD-NOT-FIND-PREREQUISITES
+----------
 Introduction to Computer Science and Programming (Fall 2008)
 6.00
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/
 This subject is aimed at students with little or no programming experience .
 ----------
 Introduction to Electrical Engineering and Computer Science I
 6.01SC
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/
 At MIT, 6.01 has no formal prerequisites. Students are expected to take 8.02 Physics II: Electricity and Magnetism as a co-requisite.
 ----------
 Structure and Interpretation of Computer Programs
 6.001
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Circuits and Electronics
 6.002
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/
 8.02 Physics II: Electricity and Magnetism , and 18.03 Differential Equations .
 8.02
 18.03
 ----------
 Signals and Systems
 6.003
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-003-signals-and-systems-fall-2011/
 6.02 Introduction to EECS II
 6.02
 ----------
 Computation Structures
 6.004
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/
 Students should feel comfortable using computers. A rudimentary knowledge of programming language concepts (C language or 6.001) and electrical fundamentals (6.002) is assumed. Each student must have an Athena account to access the software used to complete the lab assignments.
 6.001
 6.002
 ----------
-Elements of Software Construction (Fall 2011)
+Elements of Software Construction (Fall 2008)
 6.005
-COULD-NOT-FIND-SYLLABUS
-UNKNOWN
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2008/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Introduction to Algorithms (Fall 2011)
 6.006
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
 COULD-NOT-FIND-SYLLABUS
-UNKNOWN
-----------
-Introduction to Algorithms (Spring 2008)
-6.006
-A strong understanding of programming in Python™ and a solid background in discrete mathematics are necessary prerequisites to this course.
+6.01
 6.042J
-----------
 Electromagnetic Energy: From Motors to Lasers
 6.007
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/
 The formal prerequisites are 8.02 or 6.01 . Students concurrently enrolled in 6.02 or 6.002 may find that 6.007 complements those courses.
-8.02
 6.01
+6.02
 ----------
 Introduction to Communication, Control, and Signal Processing (Spring 2010)
 6.011
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/
 The essential prerequisites (not co-requisites) for this course are mastery of 6.003 and 6.041 (or equivalents), and of the 18.03 material related to solving linear, time-invariant systems of first-order differential equations using eigenvalues and eigenvectors. You should certainly not plan on taking 6.011 if you got less than a C in 6.003 or 6.041. If you did get a C (and maybe even if you got a higher grade than that), some further remedial work in the corresponding subject is important, starting immediately. If you are unsteady with 6.003, 6.041, or the relevant 18.03 material, you can be sure that 6.011 will expose that fact, sooner or later.
 6.003
-6.041
+8.02
 18.03
 ----------
 Microelectronic Devices and Circuits (Fall 2005)
 6.012
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-012-microelectronic-devices-and-circuits-fall-2005/
 6.003 (corequisite), 8.02, 18.03
-8.02
 18.03
+8.02
 ----------
 Electromagnetics and Applications (Spring 2009)
 6.013
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-013-electromagnetics-and-applications-spring-2009/
 18.01 , 18.02 , or equivalent; 8.01 , 8.02 , or equivalent; and 6.002 and 6.00 . More specifically they include complex numbers, vector operators, simple matrix operations, basic calculus, RLC circuits, Maxwell's equations, and Fourier transforms.
-18.02
-8.02
 6.02
+8.02
+18.02
 ----------
 Introduction to EECS II: Digital Communication Systems
 6.02
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/
 COULD-NOT-FIND-SYLLABUS
-UNKNOWN
+6.00 6.01
+18.03
 ----------
 Quantitative Physiology: Cells and Tissues (Fall 2004)
 6.021J
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-021j-quantitative-physiology-cells-and-tissues-fall-2004/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Quantitative Physiology: Organ Transport Systems
 6.022J
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/health-sciences-and-technology/hst-542j-quantitative-physiology-organ-transport-systems-spring-2004/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Fields, Forces and Flows in Biological Systems
 6.023J
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/biological-engineering/20-330j-fields-forces-and-flows-in-biological-systems-spring-2007/
+COULD-NOT-FIND-PREREQUISITES
+18.03
+6.021 2.005 20.320
 ----------
 Molecular, Cellular, and Tissue Biomechanics
 6.024J
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/mechanical-engineering/2-797j-molecular-cellular-and-tissue-biomechanics-fall-2006/
+COULD-NOT-FIND-PREREQUISITES
+18.03 3.016
+7.012
+2.370 2.772
 ----------
 Introduction to Bioengineering (BE.010J)
 6.025J
-N/A
-UNKNOWN
+http://ocw.mit.edu/courses/biological-engineering/20-010j-introduction-to-bioengineering-be-010j-spring-2006/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Computer System Engineering
 6.033
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2009/
 6.004 Computation Structures
 6.004
 ----------
 Artificial Intelligence (Spring 2005)
 6.034
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-spring-2005/
 6.001: We will have regular assignments that expect you to be able to read and write Scheme. This is the only formal pre-requisite.
 6.001
 ----------
-Computer Language Engineering
+Computer Language Engineering (SMA 5502)
 6.035
-6.170 and proficiency in Java
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-sma-5502-fall-2005/
+MIT course 6.170 and proficiency in Java
 6.170
 ----------
 Probabilistic Systems Analysis and Applied Probability (Fall 2010)
 6.041
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/
 The prerequisite for 6.041/6.431 is 18.02 , or a year of college-level calculus for those with undergraduate degrees from other universities.
+18.02
+----------
+Probabilistic Systems Analysis and Applied Probability (Fall 2013)
+6.041SC
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/
+COULD-NOT-FIND-SYLLABUS
 18.02
 ----------
 Mathematics for Computer Science (Fall 2010)
 6.042J
-UNKNOWN
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/
 The only prerequisite is 18.01 . If you have already taken 18.310 or 6.046 , then you should not take 6.042.
 18.01
 ----------
 Automata, Computability, and Complexity
 6.045J
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/
 We assume that you have taken 6.042 Mathematics for Computer Science , or have equivalent mathematical preparation. In particular, we will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
 6.042J
 ----------
 Introduction to Algorithms (SMA 5503)
 6.046J
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/
 A strong understanding of programming and a solid background in discrete mathematics, including probability, are necessary prerequisites to this course.
-6.042J
+6.01
+6.046J
 ----------
 Computational Biology: Genomes, Networks, Evolution (Fall 2008)
 6.047
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-047-computational-biology-genomes-networks-evolution-fall-2008/
 6.006 Introduction to Algorithms , 7.01 Introductory Biology , 6.041 Probabilistic Systems Analysis
-6.006 6.046J
-7.01
 6.041
+7.01
+6.006 6.046J
 ----------
 Information and Entropy
 6.050J
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/
 Physics I: Classical Mechanics ( 8.01 , 8.012 , 8.01L , 8.01T , or advanced standing credit)
 8.01 8.012 8.01L 8.01T
 ----------
 The Art of Approximation in Science and Engineering
 6.055J
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-055j-the-art-of-approximation-in-science-and-engineering-spring-2008/
 The prerequisites for this course are Physics I (8.01 Mechanics, GIR) and Calculus I (18.01 Single Variable Calculus, GIR) . A dose of curiosity and open-mindedness to attack problems about which you know little are recommended.
 8.01
 18.01
 ----------
 Introduction to Electric Power Systems (Spring 2011)
 6.061
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-061-introduction-to-electric-power-systems-spring-2011/
 The prerequisites for this course are 6.002 Circuits and Electronics and 6.013 Electromagnetics and Applications or permission of the instructor. Please consult with the instructor if there are any questions about preparation.
 6.002
 6.013
 ----------
 Introduction to Electronics, Signals, and Measurement
 6.071J
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Creating Video Games
 6.073J
+http://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2013/
 CMS.608 Game Design or 6.01 Introduction to Electrical Engineering and Computer Science I .
 6.01
 ----------
 Introduction to Convex Optimization (Fall 2009)
 6.079
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-079-introduction-to-convex-optimization-fall-2009/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Projects in Microscale Engineering for the Life Sciences
 6.07J
-N/A
+http://ocw.mit.edu/courses/health-sciences-and-technology/hst-410j-projects-in-microscale-engineering-for-the-life-sciences-spring-2007/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Great Ideas in Theoretical Computer Science (Spring 2008)
 6.080
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-080-great-ideas-in-theoretical-computer-science-spring-2008/
 This course is designed for undergraduates (both under- and upperclassmen) in computer science and related areas of science and engineering. Others are welcome to take the course but might wish to discuss with the instructor. There are no formal prerequisites. The only prerequisite is some facility with mathematical reasoning: that is, the ability to construct valid mathematical arguments (including proofs by contradiction, induction, etc.) and to recognize errors in invalid ones. Such facility might be gained, for example, by taking 6.042. Programming experience is helpful but not essential; the course has no programming assignments.
 ----------
 Practical Programming in C
 6.087
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/
 This course assumes a basic understanding of the principles of programming. Prior knowledge of C is neither expected nor desired. The primary prerequisite of this course is 6.00 Introduction to Computer Science and Programming , 1.00 Introduction to Computers and Engineering Problem Solving , 6.01 Introduction to Electrical Engineering and Computer Science I , or another introductory programming course at MIT. If you are unsure of the adequacy of your programming background, please speak to a member of the course staff as soon as possible. As the duration of this course is only three weeks, the material will be covered at a relatively fast pace, and catching up will be difficult.
 6.00 1.00 6.01
 ----------
 Introduction to C Memory Management and C++ Object-Oriented Programming
 6.088
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/
 We target this course to those with some degree of comfort programming (in Python, Scheme, Java, etc.) who want to become comfortable with using C/C++. No C/C++ experience expected.
 6.001
 ----------
 Great Ideas in Theoretical Computer Science (Spring 2008)
 6.089
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-080-great-ideas-in-theoretical-computer-science-spring-2008/
 This course is designed for undergraduates (both under- and upperclassmen) in computer science and related areas of science and engineering. Others are welcome to take the course but might wish to discuss with the instructor. There are no formal prerequisites. The only prerequisite is some facility with mathematical reasoning: that is, the ability to construct valid mathematical arguments (including proofs by contradiction, induction, etc.) and to recognize errors in invalid ones. Such facility might be gained, for example, by taking 6.042. Programming experience is helpful but not essential; the course has no programming assignments.
 6.042J
 ----------
 Building Programming Experience: A Lead-In to 6.001
 6.090
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-090-building-programming-experience-a-lead-in-to-6-001-january-iap-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Hands-On Introduction to Electrical Engineering Lab Skills
 6.091
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-091-hands-on-introduction-to-electrical-engineering-lab-skills-january-iap-2008/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introduction to Programming in Java
 6.092
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Java Preparation for 6.170
 6.092
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-java-preparation-for-6-170-january-iap-2006/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Bioinformatics and Proteomics
 6.092
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-bioinformatics-and-proteomics-january-iap-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introduction to MATLAB
 6.094
-N/A
-UNKNOWN
-----------
-Introduction to C++
-6.096
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-094-introduction-to-matlab-january-iap-2010/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Algorithms for Computational Biology
 6.096
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/
 6.001 (Structure and Interpretation of Computer Programs), 7.01
 6.001
 7.01
 ----------
 Fundamentals of Photonics: Quantum Electronics (Spring 2006)
 6.097
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006/
 6.003 , 6.013 or 8.07 .
 6.003 6.013 8.07
 ----------
 Street-Fighting Mathematics
 6.099
-N/A
+http://ocw.mit.edu/courses/mathematics/18-098-street-fighting-mathematics-january-iap-2008/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introductory Analog Electronics Laboratory
 6.101
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-101-introductory-analog-electronics-laboratory-spring-2007/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introductory Digital Systems Laboratory (Spring 2006)
 6.111
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-111-introductory-digital-systems-laboratory-spring-2006/
 Prior digital design experience is not required 6.004 is not a prerequisite! Take 6.004 before 6.111 or Take 6.004 after 6.111 or Take both in the same term Must have basic background in circuit theory Some basic material might be a review for those who have taken 6.004
+----------
+Introductory Digital Systems Laboratory (Fall 2002)
+6.111
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-111-introductory-digital-systems-laboratory-fall-2002/
+COULD-NOT-FIND-PREREQUISITES
 ----------
 Micro/Nano Processing Technology
 6.152J
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-152j-micro-nano-processing-technology-fall-2005/
 Permission of instructor.
 ----------
 Modern Optics Project Laboratory (Fall 2005)
 6.161
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-161-modern-optics-project-laboratory-fall-2005/
 The prerequisite is 6.003 . Exceptions can be made by the Lecturer.
 6.003
 ----------
 Strobe Project Laboratory
 6.163
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-163-strobe-project-laboratory-fall-2005/
+COULD-NOT-FIND-PREREQUISITES
+UNKNOWN
+----------
+Software Studio
+6.170
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-spring-2013/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Laboratory in Software Engineering
 6.170
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-laboratory-in-software-engineering-fall-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Software Engineering for Web Applications
 6.171
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-web-applications-fall-2003/
 This is a senior-level class at MIT where we expect the average student to be working on a bachelor's or master's degree in computer science, to have taken our introduction to computer science ( 6.001 ), to have taken our core software engineering class ( 6.170 ), and to have done at least some programming during summer jobs.
-6.001
 6.170
+6.001
 ----------
 Performance Engineering of Software Systems
 6.172
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Mobile Autonomous Systems Laboratory
 6.186
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-186-mobile-autonomous-systems-laboratory-january-iap-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 A Gentle Introduction to Programming Using Python (January IAP 2011)
 6.189
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/
+COULD-NOT-FIND-PREREQUISITES
+UNKNOWN
+----------
+A Gentle Introduction to Programming Using Python (January IAP 2008)
+6.189
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Multicore Programming Primer
 6.189
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Networks
 6.207J
+http://ocw.mit.edu/courses/economics/14-15j-networks-fall-2009/
 The prerequisites for this course are basic probability at the level of 6.041 Probabilistic Systems Analysis and 14.30 Introduction to Statistical Method in Economics . Since the course is aiming at developing a systematic understanding and analysis of networks and processes over networks, the students will be expected to work with mathematical models and analytical reasoning.
 6.041
 ----------
 Autonomous Robot Design Competition
 6.270
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-270-autonomous-robot-design-competition-january-iap-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Parallel Computing
 6.338J
+http://ocw.mit.edu/courses/mathematics/18-337j-parallel-computing-fall-2011/
 18.06 Linear Algebra or 18.701 Algebra I .
 18.06 18.701
 ----------
 The Battlecode Programming Competition
 6.370
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-370-the-battlecode-programming-competition-january-iap-2013/
+COULD-NOT-FIND-PREREQUISITES
+UNKNOWN
+----------
+Robocraft Programming Competition
+6.370
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-370-robocraft-programming-competition-january-iap-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Probabilistic Systems Analysis and Applied Probability (Fall 2010)
 6.431
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/
 The prerequisite for 6.041/6.431 is 18.02 , or a year of college-level calculus for those with undergraduate degrees from other universities.
 18.02
 ----------
 Quantitative Physiology: Cells and Tissues (Fall 2004)
 6.521J
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-021j-quantitative-physiology-cells-and-tissues-fall-2004/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Modern Optics Project Laboratory (Fall 2005)
 6.637
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-161-modern-optics-project-laboratory-fall-2005/
 The prerequisite is 6.003 . Exceptions can be made by the Lecturer.
 6.003
 ----------
 Introduction to Nanoelectronics (Spring 2010)
 6.701
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-701-introduction-to-nanoelectronics-spring-2010/
 6.007 Electromagnetic Energy: From Motors to Lasers , or 6.003 Signals and Systems .
 6.007 6.003
 ----------
 Machine Vision (Fall 2004)
 6.801
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 The Human Intelligence Enterprise (Spring 2006)
 6.803
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2006/
+COULD-NOT-FIND-PREREQUISITES
+UNKNOWN
+----------
+The Human Intelligence Enterprise (Spring 2002)
+6.803
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2002/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Computational Cognitive Science
 6.804J
+http://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-66j-computational-cognitive-science-fall-2004/
 The pre-requisite is a class in probability or statistics (e.g., 9.07 , Statistical Methods in Brain and Cognitive Science, 18.05 , Introduction to Probability and Statistics, 6.041 , Probabilistic Systems Analysis and Applied Probability). A class in artificial intelligence or machine learning would be helpful but is not necessary, as the relevant material will be reviewed in this class. Experience in programming (particularly in a high-level language such as MATLAB ) is desirable.
 9.07 18.05 6.041
 ----------
 Ethics and the Law on the Electronic Frontier (Fall 2005)
 6.805
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-805-ethics-and-the-law-on-the-electronic-frontier-fall-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Ethics and the Law on the Electronic Frontier (Fall 2005)
 6.806
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-805-ethics-and-the-law-on-the-electronic-frontier-fall-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 User Interface Design and Implementation (Spring 2011)
 6.813
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/
 6.005 Elements of Software Construction
 6.005
 ----------
 Database Systems (Fall 2010)
 6.814
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/
 Students should have taken 6.033 Introduction to Systems or equivalent as well as 6.006 Introduction to Algorithms or equivalent. If you do not have experience in these subjects and would like to take the course, please contact the instructor. Prior database experience is not required.
 6.033
 ----------
 Database Systems (Fall 2010)
 6.830
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/
 Students should have taken 6.033 Introduction to Systems or equivalent as well as 6.006 Introduction to Algorithms or equivalent. If you do not have experience in these subjects and would like to take the course, please contact the instructor. Prior database experience is not required.
 6.033
 ----------
 User Interface Design and Implementation (Spring 2011)
 6.831
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/
 6.005 Elements of Software Construction
 6.005
 ----------
 Computer Graphics
 6.837
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/
 It is useful if you have knowledge of the following:
-18.02
 18.06 18.700
+18.02
 ----------
 Inventions and Patents
 6.901
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-901-inventions-and-patents-fall-2005/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Engineering Innovation and Design
 6.902J
-N/A
+http://ocw.mit.edu/courses/engineering-systems-division/esd-051j-engineering-innovation-and-design-fall-2012/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Patents, Copyrights, and the Law of Intellectual Property
 6.903J
+http://ocw.mit.edu/courses/sloan-school-of-management/15-628j-patents-copyrights-and-the-law-of-intellectual-property-spring-2013/
 There are no prerequisites for this class.
 ----------
 Transcribing Prosodic Structure of Spoken Utterances with ToBI
 6.911
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-911-transcribing-prosodic-structure-of-spoken-utterances-with-tobi-january-iap-2006/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introduction to Copyright Law
 6.912
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-912-introduction-to-copyright-law-january-iap-2006/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Management in Engineering
 6.930
-N/A
+http://ocw.mit.edu/courses/mechanical-engineering/2-96-management-in-engineering-fall-2012/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Fundamentals of Photonics: Quantum Electronics (Spring 2006)
 6.974
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006/
 6.003 , 6.013 or 8.07 .
 6.003 6.013 8.07
 ----------
 NextLab I: Designing Mobile Technologies for the Next Billion Users
 6.976
-N/A
+http://ocw.mit.edu/courses/media-arts-and-sciences/mas-965-nextlab-i-designing-mobile-technologies-for-the-next-billion-users-fall-2008/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Nanomaker
 6.S079
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s079-nanomaker-spring-2013/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Effective Programming in C and C++
 6.S096
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------
 Introduction to C and C++
 6.S096
-N/A
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/
+COULD-NOT-FIND-PREREQUISITES
 UNKNOWN
 ----------

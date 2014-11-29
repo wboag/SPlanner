@@ -61,9 +61,10 @@
       (let
           ((course-id (course-number course))
            (descr (course->prereqs-text course)))
-        ;(displayln descr)
-        (if (eq? descr 'COULD-NOT-FIND-SYLLABUS)
-            'UNKNOWN
+        (if (symbol? descr)
+            ; error getting prereqs?
+            '()
+            ; prereqs text found; extract data
             (let
                 ((course-no (numeric-value course-id))
                  (numbers (regexp-match* #rx"[\\.]+\\.[0-9]+[A-Z]*" descr)))
@@ -101,7 +102,7 @@
                   (set! courses (append dept-courses courses))
                   ; Second try: determine if course data is available
                   (let 
-                      ((second-matches (filter (lambda (c) 
+                      ((second-matches (filter (lambda (c)
                                                  (equal? (course-number c)
                                                          (string-upcase num)))
                                                courses)))
@@ -115,10 +116,10 @@
 ; mathematics
 
 
-#|
+
 ; list of undergraduate courses (as course objects)
-(define dept "electrical-engineering-and-computer-science")
-;(define dept "mathematics")
+;(define dept "electrical-engineering-and-computer-science")
+(define dept "mathematics")
 (define all-courses (department->courses dept))
 ;(displayln all-courses)
 
@@ -152,8 +153,9 @@
        |#
        
        
+       
        (for-each (lambda (c t p) 
-                   (if (equal? p 'UNKNOWN)
+                   (if (equal? p p)
                        (begin
                          (displayln (course-name   c)) 
                          (displayln (course-number c))
@@ -167,7 +169,7 @@
        
        
        void))
-|#
+
 
 
 
@@ -215,7 +217,7 @@
 (define (number->department course-no)
   (let
       ((dept-no (regexp-match #rx"[^\\.]+" (string-upcase course-no))))
-    (displayln dept-no)
+    ;(displayln dept-no)
     (if (empty? dept-no)
         'BAD-INPUT
         (hash-ref depts (string-upcase (car dept-no)) 'UNRECOGNIZED-DEPT))))
@@ -226,32 +228,54 @@
 ; TODO: Add lots of different commands 
 ;       ex. (get class from number, lookup number from keywords, etc)
 (define (repl)
-  (displayln "What course would you like to know about? ")
+  (displayln "What action would you like to select? ")
   (let
       ((input (read-line)))
-    (if (equal? input eof)
-        true
-        (let ((course (get-course-from-number input)))
-          (cond ((symbol? course)
-                 (begin
-                   (displayln (string-append "I'm sorry. "
-                                             "I don't recognize "
-                                             "that department "))))
-                ((equal? course false)
-                 (begin
+    (cond 
+
+      ; done
+      ((equal? input eof)
+       true)
+      
+      ; help
+      ((equal? input "help")
+       (begin 
+         (displayln "Actions:")
+         (displayln " lookup - find course with given course number (ex. 18.02)")
+         (newline)
+         (repl)))
+
+      ; lookup from course number
+      ((equal? input "lookup")
+       (begin
+         (displayln "What course would you like to know about? ")
+         (let* ((course-no (read-line))
+                (course (get-course-from-number course-no)))
+           (cond 
+             ((symbol? course)
+              (begin
+                (displayln (string-append "I'm sorry. "
+                                          "I don't recognize "
+                                          "that department "))))
+             ((equal? course false)
+              (begin
                 (displayln (string-append "I'm sorry. "
                                           "I don't recognize "
                                           "course " 
                                           input))))
-                (else
-                 (begin
-                   (displayln "You chose")
-                   (displayln (course-name course))
-                   (display "prerequisites: ")
-                   (displayln (course->prereqs-list course)))))
-              
-          (newline)
-          (repl)))))
+             (else
+              (begin
+                (displayln "You chose")
+                (displayln (course-name course))
+                (display "prerequisites: ")
+                (displayln (course->prereqs-list course)))))
+           (newline)
+           (repl))))
+      
+      (else
+       (newline)
+       (repl)))
+    ))
 (repl)
 (displayln "Happy learning!")
 

@@ -159,7 +159,7 @@
               ((member "Prerequisite" strings)
                (cadr (member "Prerequisite" strings)))
               (else
-               "N/A")
+               'COULD-NOT-FIND-PREREQUISITES)
               ))))))
 
 

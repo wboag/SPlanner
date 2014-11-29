@@ -97,6 +97,7 @@
     ; read course header (only the course number actually matters)
     (let ((name   (read-line port))
           (number (read-line port))
+          (url    (read-line port))
           (text   (read-line port)))    
       ; returns eof when done with whole file
       (build-prereqs number '())))

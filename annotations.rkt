@@ -18,13 +18,12 @@
 (provide get-annotations)
 
 
-
 ; has the given course been manually annotated?
 (define (hand-annotated? c)
 
   ; if course number's data not loaded, then load
   (let ((dept (number->department (course-number c))))
-    (cond ((not (is-module-loaded? dept))
+    (cond ((and (not (symbol? dept)) (not (is-module-loaded? dept)))
            (load-module dept))))
   
   ; determine if course prereqs are available
@@ -51,7 +50,8 @@
 (hash-set! depts "6"  "electrical-engineering-and-computer-science")
 
 (define (number->department course-no)
-  (let ((dept-no (regexp-match #rx"[0-9]+" course-no)))
+  (let 
+      ((dept-no (regexp-match #rx"[0-9]+" (string-upcase course-no))))
     (if (empty? dept-no)
         'BAD-INPUT
         (hash-ref depts (car dept-no) 'UNRECOGNIZED-DEPT))))

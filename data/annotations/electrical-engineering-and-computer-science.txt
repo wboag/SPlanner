@@ -1,8 +1,3 @@
-Introduction to Computer Science and Programming (Spring 2011)
-6.00SC
-N/A
-UNKNOWN
-----------
 Introduction to Computer Science and Programming (Fall 2008)
 6.00
 This subject is aimed at students with little or no programming experience .
@@ -38,11 +33,6 @@ Elements of Software Construction (Fall 2011)
 COULD-NOT-FIND-SYLLABUS
 UNKNOWN
 ----------
-Elements of Software Construction (Fall 2008)
-6.005
-N/A
-UNKNOWN
-----------
 Introduction to Algorithms (Fall 2011)
 6.006
 COULD-NOT-FIND-SYLLABUS
@@ -66,21 +56,6 @@ The essential prerequisites (not co-requisites) for this course are mastery of 6
 6.041
 18.03
 ----------
-Introduction to Communication, Control, and Signal Processing (Spring 2004)
-6.011
-N/A
-UNKNOWN
-----------
-Microelectronic Devices and Circuits (Spring 2009)
-6.012
-N/A
-UNKNOWN
-----------
-Microelectronic Devices and Circuits (Fall 2009)
-6.012
-N/A
-UNKNOWN
-----------
 Microelectronic Devices and Circuits (Fall 2005)
 6.012
 6.003 (corequisite), 8.02, 18.03
@@ -90,13 +65,6 @@ Microelectronic Devices and Circuits (Fall 2005)
 Electromagnetics and Applications (Spring 2009)
 6.013
 18.01 , 18.02 , or equivalent; 8.01 , 8.02 , or equivalent; and 6.002 and 6.00 . More specifically they include complex numbers, vector operators, simple matrix operations, basic calculus, RLC circuits, Maxwell's equations, and Fourier transforms.
-18.02
-8.02
-6.02
-----------
-Electromagnetics and Applications (Fall 2005)
-6.013
-18.01, 18.02, or equivalent; 8.01, 8.02, or equivalent; 6.002 and 6.003 (more precisely: complex numbers, vector operators, simple matrix operations, basic calculus, RLC circuits, Maxwell's equations, and Fourier transforms).
 18.02
 8.02
 6.02
@@ -136,11 +104,6 @@ Computer System Engineering
 6.004 Computation Structures
 6.004
 ----------
-Artificial Intelligence (Fall 2010)
-6.034
-N/A
-UNKNOWN
-----------
 Artificial Intelligence (Spring 2005)
 6.034
 6.001: We will have regular assignments that expect you to be able to read and write Scheme. This is the only formal pre-requisite.
@@ -151,30 +114,10 @@ Computer Language Engineering
 6.170 and proficiency in Java
 6.170
 ----------
-Computer Language Engineering (SMA 5502)
-6.035
-MIT course 6.170 and proficiency in Java
-6.170
-----------
 Probabilistic Systems Analysis and Applied Probability (Fall 2010)
 6.041
 The prerequisite for 6.041/6.431 is 18.02 , or a year of college-level calculus for those with undergraduate degrees from other universities.
 18.02
-----------
-Probabilistic Systems Analysis and Applied Probability (Spring 2006)
-6.041
-The prerequisite for 6.041 and 6.431 is 18.02 , or a year of college level calculus for those with undergraduate degrees from other universities. Students who have not completed the prerequisite with a grade of A, B, C or P may not enroll.
-18.02
-----------
-Probabilistic Systems Analysis and Applied Probability (Fall 2013)
-6.041SC
-COULD-NOT-FIND-SYLLABUS
-UNKNOWN
-----------
-Mathematics for Computer Science (Spring 2010)
-6.042J
-N/A
-UNKNOWN
 ----------
 Mathematics for Computer Science (Fall 2010)
 6.042J
@@ -182,25 +125,10 @@ UNKNOWN
 The only prerequisite is 18.01 . If you have already taken 18.310 or 6.046 , then you should not take 6.042.
 18.01
 ----------
-Mathematics for Computer Science (Spring 2005)
-6.042J
-N/A
-UNKNOWN
-----------
-Mathematics for Computer Science (Fall 2005)
-6.042J
-The prerequisite for the course is 18.01 . You should be familiar with sequences and series, limits, and integration and differentiation of univariate functions.
-18.01
-----------
 Automata, Computability, and Complexity
 6.045J
 We assume that you have taken 6.042 Mathematics for Computer Science , or have equivalent mathematical preparation. In particular, we will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
 6.042J
-----------
-Design and Analysis of Algorithms
-6.046J
-COULD-NOT-FIND-SYLLABUS
-UNKNOWN
 ----------
 Introduction to Algorithms (SMA 5503)
 6.046J
@@ -330,11 +258,6 @@ Introductory Digital Systems Laboratory (Spring 2006)
 6.111
 Prior digital design experience is not required 6.004 is not a prerequisite! Take 6.004 before 6.111 or Take 6.004 after 6.111 or Take both in the same term Must have basic background in circuit theory Some basic material might be a review for those who have taken 6.004
 ----------
-Introductory Digital Systems Laboratory (Fall 2002)
-6.111
-N/A
-UNKNOWN
-----------
 Micro/Nano Processing Technology
 6.152J
 Permission of instructor.
@@ -346,11 +269,6 @@ The prerequisite is 6.003 . Exceptions can be made by the Lecturer.
 ----------
 Strobe Project Laboratory
 6.163
-N/A
-UNKNOWN
-----------
-Software Studio
-6.170
 N/A
 UNKNOWN
 ----------
@@ -380,11 +298,6 @@ A Gentle Introduction to Programming Using Python (January IAP 2011)
 N/A
 UNKNOWN
 ----------
-A Gentle Introduction to Programming Using Python (January IAP 2008)
-6.189
-N/A
-UNKNOWN
-----------
 Multicore Programming Primer
 6.189
 N/A
@@ -406,11 +319,6 @@ Parallel Computing
 18.06 18.701
 ----------
 The Battlecode Programming Competition
-6.370
-N/A
-UNKNOWN
-----------
-Robocraft Programming Competition
 6.370
 N/A
 UNKNOWN
@@ -441,11 +349,6 @@ N/A
 UNKNOWN
 ----------
 The Human Intelligence Enterprise (Spring 2006)
-6.803
-N/A
-UNKNOWN
-----------
-The Human Intelligence Enterprise (Spring 2002)
 6.803
 N/A
 UNKNOWN

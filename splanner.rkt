@@ -16,13 +16,19 @@
 
 
 
+; List of loaded courses
+(define courses '())
+
+
+
+
 ; test whether two strings represent courses from the same department
 ; ex. (same-department? "18.01" "18.63A")  -->   true)
 ; ex. (same-department? "18.01" "6.046")   -->  false)
 (define (same-department? num1 num2)
   (let
-      ((d1 (regexp-match #rx"[0-9]+\\." num1))
-       (d2 (regexp-match #rx"[0-9]+\\." num2)))
+      ((d1 (regexp-match #rx"[\\.]+\\." (string-upcase num1)))
+       (d2 (regexp-match #rx"[\\.]+\\." (string-upcase num2))))
     (equal? d1 d2)))
 
 
@@ -31,8 +37,10 @@
 ; ex. "18.013A" -> "18.01"
 (define (numeric-value course-id)
   (let
-      ((num   (regexp-match #rx"[0-9]+\\.[0-9][0-9]+" course-id))
-       (goofy (regexp-match #rx"[0-9]+\\.S[0-9][0-9]" course-id)))
+      ((num   (regexp-match #rx"[^\\.]+\\.[0-9][0-9]+" 
+                            (string-upcase course-id)))
+       (goofy (regexp-match #rx"[^\\.]+\\.S[0-9][0-9]" 
+                            (string-upcase course-id))))
     (cond
       ; Heuristic: Assume xx.Sxx is largest course number in dept.
       (goofy (+ (string->number (car (regexp-match #rx"[0-9]|" course-id)))
@@ -53,12 +61,12 @@
       (let
           ((course-id (course-number course))
            (descr (course->prereqs-text course)))
-        (displayln descr)
+        ;(displayln descr)
         (if (eq? descr 'COULD-NOT-FIND-SYLLABUS)
             'UNKNOWN
             (let
                 ((course-no (numeric-value course-id))
-                 (numbers (regexp-match* #rx"[0-9]+\\.[0-9]+[A-Z]*" descr)))
+                 (numbers (regexp-match* #rx"[\\.]+\\.[0-9]+[A-Z]*" descr)))
               (let
                   ((filtered (filter (lambda (n) 
                                        ; Heuristic: Only consider inter-department
@@ -76,25 +84,44 @@
 
 ; get a course object with a given course number
 (define (get-course-from-number num)
-  ; ASSUMPTION: Global course list is defined already
+  ; First try: determine if course data has already been fetched
   (let ((matches (filter (lambda (c) (equal? (course-number c)
-                                            num))
+                                             (string-upcase num)))
                         courses)))
+    ; if course data already fetched?
     (if (not (empty? matches))
         (car matches)
-        false)))
-
+        ; else: retrieve courses for given department and re-check
+        (begin
+          ; retrieve all deprtment courses
+          (let ((dept (number->department num)))
+            (if (symbol? dept)
+                dept
+                (let ((dept-courses (department->courses dept)))
+                  (set! courses (append dept-courses courses))
+                  ; Second try: determine if course data is available
+                  (let 
+                      ((second-matches (filter (lambda (c) 
+                                                 (equal? (course-number c)
+                                                         (string-upcase num)))
+                                               courses)))
+                    ; if course data already fetched?
+                    (if (not (empty? second-matches))
+                        (car second-matches)
+                        false)))))))))
+    
+    
 ; ANNOTATED
 ; mathematics
 
 
+#|
 ; list of undergraduate courses (as course objects)
 (define dept "electrical-engineering-and-computer-science")
 ;(define dept "mathematics")
 (define all-courses (department->courses dept))
 ;(displayln all-courses)
 
-(define courses '())
 (cond ((not (equal? all-courses 'BAD-QUERY))
        (set! courses (filter (lambda (c) 
                                  (equal? "Undergraduate" (course-level c)))
@@ -140,12 +167,61 @@
        
        
        void))
+|#
 
 
 
 
+; map course department number to department name
+(define depts (make-hash))
+(hash-set! depts "4"  "architecture")
+(hash-set! depts "MAS" "media-arts-and-sciences") ; FIXME: generalize
+(hash-set! depts "11" "urban-studies-and-planning")
+(hash-set! depts "16" "aeronautics-and-astronautics")
+(hash-set! depts "20" "biological-engineering")
+(hash-set! depts "10" "chemical-engineering")
+(hash-set! depts "1" "civil-and-environmental-engineering")
+(hash-set! depts "6"  "electrical-engineering-and-computer-science")
+(hash-set! depts "ESD" "engineering-systems-division") ; FIXME: generalize
+(hash-set! depts "HST" "health-sciences-and-technology") ; FIXME: generalie
+(hash-set! depts "3" "materials-science-and-engineering")
+(hash-set! depts "2" "mechanical-engineering")
+(hash-set! depts "22" "nuclear-engineering")
+(hash-set! depts "21A" "anthropology") ; FIXME: generalize
+(hash-set! depts "CMS" "comparative-media-studies") ; FIXME: generalize
+(hash-set! depts "14" "economics")
+(hash-set! depts "21F" "foreign-languages-and-literatures") ; FIXME: generalize
+(hash-set! depts "21H" "history") ; FIXME: generalize
+(hash-set! depts "24" "linguistics-and-philosophy")
+(hash-set! depts "21L" "literature") ; FIXME: generalize
+(hash-set! depts "21M" "music-and-theater-arts") ; FIXME: generalize
+(hash-set! depts "17" "political-science")
+(hash-set! depts "STS" "science-technology-and-society") ; FIXME: generalize
+(hash-set! depts "21W" "writing-and-humanistic-studies") ; FIXME: generalize
+(hash-set! depts "WGS" "womens-and-gender-studies") ; FIXME: generalize
+(hash-set! depts "7" "biology")
+(hash-set! depts "9" "brain-and-cognitive-sciences")
+(hash-set! depts "5" "chemistry")
+(hash-set! depts "12" "earth-atmospheric-and-planetary-sciences")
+(hash-set! depts "18" "mathematics")
+(hash-set! depts "8" "physics")
+(hash-set! depts "15" "sloan-school-of-management")
+(hash-set! depts "PE" "athletics-physical-education-and-recreation") ; FIXME: generalize
+(hash-set! depts "CC" "concourse") ; FIXME: generalize
+(hash-set! depts "ES" "experimental-study-group") ; FIXME: generalize
+(hash-set! depts "SP" "special-programs")
 
-#|
+
+(define (number->department course-no)
+  (let
+      ((dept-no (regexp-match #rx"[^\\.]+" (string-upcase course-no))))
+    (displayln dept-no)
+    (if (empty? dept-no)
+        'BAD-INPUT
+        (hash-ref depts (string-upcase (car dept-no)) 'UNRECOGNIZED-DEPT))))
+
+
+
 ; REPL
 ; TODO: Add lots of different commands 
 ;       ex. (get class from number, lookup number from keywords, etc)
@@ -156,18 +232,27 @@
     (if (equal? input eof)
         true
         (let ((course (get-course-from-number input)))
-          (if course
-              (begin
-                (displayln "You chose")
-                (displayln (course-name course))
-                (display "prerequisites: ")
-                (displayln (course->prereqs-list course)))
-              (begin
+          (cond ((symbol? course)
+                 (begin
+                   (displayln (string-append "I'm sorry. "
+                                             "I don't recognize "
+                                             "that department "))))
+                ((equal? course false)
+                 (begin
                 (displayln (string-append "I'm sorry. "
                                           "I don't recognize "
                                           "course " 
                                           input))))
+                (else
+                 (begin
+                   (displayln "You chose")
+                   (displayln (course-name course))
+                   (display "prerequisites: ")
+                   (displayln (course->prereqs-list course)))))
+              
+          (newline)
           (repl)))))
 (repl)
 (displayln "Happy learning!")
-|#
+
+; MAJOR TODO - allow it to fetch course from number

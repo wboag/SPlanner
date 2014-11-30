@@ -114,12 +114,13 @@
     
 ; ANNOTATED
 ; mathematics
+; electrical-engineering-and-computer-science
 
 
 
 ; list of undergraduate courses (as course objects)
 ;(define dept "electrical-engineering-and-computer-science")
-(define dept "mathematics")
+(define dept "linguistics-and-philosophy")
 (define all-courses (department->courses dept))
 ;(displayln all-courses)
 
@@ -234,7 +235,7 @@
     (cond 
 
       ; done
-      ((equal? input eof)
+      ((or (equal? input eof) (equal? input "exit"))
        true)
       
       ; help
@@ -242,6 +243,7 @@
        (begin 
          (displayln "Actions:")
          (displayln " lookup - find course with given course number (ex. 18.02)")
+         (displayln " exit   - close SPlanner")
          (newline)
          (repl)))
 
@@ -273,10 +275,12 @@
            (repl))))
       
       (else
+       (displayln (string-append "unrecognized command "
+                                 input))
        (newline)
        (repl)))
     ))
-(repl)
+(define ans (repl))
 (displayln "Happy learning!")
 
 ; MAJOR TODO - allow it to fetch course from number

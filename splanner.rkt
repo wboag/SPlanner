@@ -117,7 +117,7 @@
 ; electrical-engineering-and-computer-science
 
 
-
+#|
 ; list of undergraduate courses (as course objects)
 ;(define dept "electrical-engineering-and-computer-science")
 (define dept "linguistics-and-philosophy")
@@ -137,10 +137,10 @@
        ;(define course-numbers (map course-number        courses))
        
        ; list of prerequisite descrptions
-       (define prereq-texts   (map course->prereqs-text courses))
+       ;(define prereq-texts   (map course->prereqs-text courses))
        
        ; list of (list of prerequisites for each course)
-       (define prereq-lists   (map course->prereqs-list courses))
+       ;(define prereq-lists   (map course->prereqs-list courses))
        
        #|
        ; display data
@@ -154,7 +154,7 @@
        |#
        
        
-       
+       #|
        (for-each (lambda (c t p) 
                    (if (equal? p p)
                        (begin
@@ -167,10 +167,11 @@
                          ) 
                        void))
                  courses prereq-texts prereq-lists)
+       |#
        
        
        void))
-
+|#
 
 
 
@@ -224,6 +225,7 @@
         (hash-ref depts (string-upcase (car dept-no)) 'UNRECOGNIZED-DEPT))))
 
 
+(set! courses (department->courses "mathematics"))
 
 ; REPL
 ; TODO: Add lots of different commands 
@@ -242,10 +244,44 @@
       ((equal? input "help")
        (begin 
          (displayln "Actions:")
-         (displayln " lookup - find course with given course number (ex. 18.02)")
-         (displayln " exit   - close SPlanner")
+         (displayln " lookup   - find course with given course number (ex. 18.02)")
+         (displayln " exit     - close SPlanner")
+         (displayln " keywords - find courses about particular keyword")
+         (displayln " load     - load data for a given department")
          (newline)
          (repl)))
+
+      ; load department data
+      ((equal? input "load")
+       (begin
+         (displayln "From which department would you like to load data?")
+         (let ((dept (read-line)))
+           ; FIXME - dont reload courses
+           (set! courses (append courses (department->courses dept)))
+           (newline)
+           (repl))))
+      
+      ; keyword search
+      ((equal? input "keywords")
+       (begin
+         (displayln "Please enter a set of keywords to search")
+         (let* ((keys (string-split (string-downcase (read-line))))
+                (relevant (filter (lambda (c)
+                                    (foldl (lambda (a b) (or a b))
+                                           #f
+                                           (map (lambda (word)
+                                                  (member word keys))
+                                                (string-split 
+                                                 (string-downcase
+                                                  (course-name
+                                                   c))))))
+                                  courses)))
+           (displayln (list "keys" keys))
+           (map (lambda (c) 
+                  (displayln (list (course-name c) (course-number c)))) 
+                relevant)
+           (newline)
+           (repl))))
 
       ; lookup from course number
       ((equal? input "lookup")

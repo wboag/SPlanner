@@ -13,7 +13,7 @@
 (require "course.rkt")
 (require "scraper.rkt")
 (require "annotations.rkt")
-
+(require "topologicalsort.rkt")
 
 
 ; List of loaded courses
@@ -51,6 +51,10 @@
 
 
 ; Get list of prereqs (strings) from a course object
+; NOTE: In this file, because it uses hand-annotated?
+;       hand-annotated? is defined in annotations.rkt, which requires
+;       scraper.rkt. Therefore, this cannot go in scraper.rkt without
+;       causing a circular dependency.
 (define (course->prereqs-list course)
   ; already done?
   (if (hand-annotated? course)
@@ -225,7 +229,28 @@
         (hash-ref depts (string-upcase (car dept-no)) 'UNRECOGNIZED-DEPT))))
 
 
-(set! courses (department->courses "mathematics"))
+(set! courses (department->courses "electrical-engineering-and-computer-science"))
+
+
+
+; accumulate prereq closure
+(define (all-prereqs course)
+  (let ((prereqs (course->prereqs-list course)))
+    (if (null? prereqs)
+        '()
+        ; add current prereqs to return value and get transitive closure
+        ; NOTE: hack of taking first course from OR relationship
+        (append
+         (map (lambda (c) (list (course-number course) (car c)))
+              prereqs)
+         (foldl append '() (map (lambda (c-num)
+                                  (all-prereqs 
+                                   (get-course-from-number 
+                                    (car c-num))))
+                                prereqs))))))
+
+
+
 
 ; REPL
 ; TODO: Add lots of different commands 
@@ -260,6 +285,25 @@
            (set! courses (append courses (department->courses dept)))
            (newline)
            (repl))))
+ 
+      ; recommended sequence
+      ((equal? input "sequence")
+       (begin
+         (displayln "Please enter the target course number.")
+         (let* ((course-no (read-line))
+                (target (get-course-from-number course-no))
+                (dependency-list (all-prereqs target))
+                (course-graph (make-graph-with-edges dependency-list))
+                (all-sorts (all-topological-sorts course-graph)))
+           
+           ;(show-graph course-graph)
+           (displayln (length all-sorts))
+           (displayln (car all-sorts))
+           
+           ;(for-each (lambda (cno) (displayln-c (get-course-from-number cno)))
+           ;          (set->list (list->set (foldl append '() dependency-list))))
+           (newline)
+           (repl))))
       
       ; keyword search
       ((equal? input "keywords")
@@ -276,7 +320,6 @@
                                                   (course-name
                                                    c))))))
                                   courses)))
-           (displayln (list "keys" keys))
            (map (lambda (c) 
                   (displayln (list (course-name c) (course-number c)))) 
                 relevant)
@@ -318,5 +361,3 @@
     ))
 (define ans (repl))
 (displayln "Happy learning!")
-
-; MAJOR TODO - allow it to fetch course from number

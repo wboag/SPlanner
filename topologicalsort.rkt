@@ -2,6 +2,16 @@
 
 (require data/gvector)
 
+
+(provide make-graph)
+(provide make-edge)
+(provide topological-sort)
+
+(provide make-graph-with-edges)
+(provide show-graph)
+(provide all-topological-sorts)
+
+
 ;;;
 ;Graph Primitives
 ;;;

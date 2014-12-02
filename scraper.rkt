@@ -108,16 +108,6 @@
                                                ul
                                                (li  (@ (class ""           )))
                                                a))))
-    ; BAD FORMAT - http://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/
-    ;(displayln url)
-    ;(displayln (get-attr-path parsed '(html body (div (@ (id "center_chp"    ))) 
-    ;                                           (div (@ (id "grid"          )))
-    ;                                           (div (@ (id "left"          )))
-    ;                                           (div (@ (id "course_wrapper"))) 
-    ;                                           (div (@ (id "course_nav"    )))
-    ;                                           ul
-    ;                                           (li  (@ (class ""           ))))))
-    ;(displayln path)
     (if (equal? path 'BAD-QUERY)
         'BAD-QUERY
         (resolve-ocw-url (get-field path 'href)))))
@@ -162,26 +152,3 @@
                'COULD-NOT-FIND-PREREQUISITES)
               ))))))
 
-
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;                                   Test tools.                              ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-#|
-(define (psuedo-unit-tests)
-  ; URL port
-  (define html-data         (url->port (resolve-ocw-url "/courses/mathematics/")))
-  ; List of string tokens
-  (define parsed            (html->xexp html-data))  
-  ; HTML table (AKA string of tokens) containing (among other thnings) course data
-  (define course-html-list  (get-attr-path parsed '(html body (div (@ (id "center_global"))) (div (@ (id "grid"))) (div (@ (id "left"))) (div (@ (class "global_wrapper"))) (div (@ (id "global_inner"))) (table (@ (class "courseList"))) tbody )))
-  ; List of (list of string HTML tokens for class preview)
-  (define courses           (get-attr-all course-html-list 'tr))
-  ; One list of string HTML tokens for class preview
-  (define course            (car courses)) 
-  ; Course object
-  (define course-data       (html->course course))
-)  
-|#

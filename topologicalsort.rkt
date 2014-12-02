@@ -284,7 +284,7 @@
                 (begin
                   (display visited)
                   (newline)
-                  true)
+                  visited)
                 (if (equal? (length sources) 0)
                   (begin
                     (display "Error:  The provided graph contains a cycle, and cannot be topologically sorted.")
@@ -296,26 +296,26 @@
 ;;;
 ;All Topological Sorts
 ;;;
-
 (define (all-topological-sorts graph [visited '()])
-  (let ((new-graph (make-gvector)))
-    (let ((all-vertices (map (lambda (n) (gvector-ref n 0)) (gvector->list graph))))
-      (map (lambda (n)
-             (begin
-               (gvector-add! new-graph (gvector (gvector-ref (gvector-ref graph (get-vertex graph n)) 0) (gvector-ref (gvector-ref graph (get-vertex graph n)) 1) (gvector-ref (gvector-ref graph (get-vertex graph n)) 2))) 
-               n)) all-vertices)
-      (let ((newer-graph (preprocess-graph new-graph)))
+(define (helper graph [visited '()])
+    (let ((new-graph (make-gvector)))
+      (let ((all-vertices (map (lambda (n) (gvector-ref n 0)) (gvector->list graph))))
         (map (lambda (n)
                (begin
-                 (if (not (equal? (index-of n visited) -1))
-                     (begin
-                       (gvector-remove! newer-graph (get-vertex newer-graph n))
-                       (for/gvector ([i (gen-list-length (gvector-count newer-graph))]) 
+                 (gvector-add! new-graph (gvector (gvector-ref (gvector-ref graph (get-vertex graph n)) 0) (gvector-ref (gvector-ref graph (get-vertex graph n)) 1) (gvector-ref (gvector-ref graph (get-vertex graph n)) 2))) 
+                 n)) all-vertices)
+        (let ((newer-graph (preprocess-graph new-graph)))
+          (map (lambda (n)
+                 (begin
+                   (if (not (equal? (index-of n visited) -1))
+                       (begin
+                         (gvector-remove! newer-graph (get-vertex newer-graph n))
+                         (for/gvector ([i (gen-list-length (gvector-count newer-graph))]) 
                                     (begin
                                       (gvector-set! (gvector-ref newer-graph i) 1 (edge-filtering (gvector-ref (gvector-ref newer-graph i) 1) n))
                                       (gvector-set! (gvector-ref newer-graph i) 2 (edge-filtering (gvector-ref (gvector-ref newer-graph i) 2) n)))))
-                     n))) all-vertices)
-                 
+                       n))) all-vertices)
+          
         (let ((vertices (map (lambda (n) (gvector-ref n 0)) (gvector->list newer-graph))))
           (let ((sources (filter (lambda (vertex)
                            (equal? (length (get-incoming-edges newer-graph vertex)) 0)) vertices)))
@@ -323,20 +323,28 @@
                 (begin
                   (display visited)
                   (newline)
-                  true)
+                  visited)
                 (if (equal? (length sources) 0)
-                  (begin
-                    (display "Error:  The provided graph contains a cycle, and cannot be topologically sorted.")
-                    (newline)
-                    false)
-                  (begin
-                    (let ((new-visited visited))
-                      (map (lambda (n)
-                             (all-topological-sorts graph (append new-visited (list n)))) sources)))))))))))
+                    (begin
+                      (display "Error:  The provided graph contains a cycle, and cannot be topologically sorted.")
+                      (newline)
+                      false)
+                    (begin
+                      (let ((new-visited visited))
+                        (map (lambda (n)
+                               (helper graph (append new-visited (list n)))) sources)))))))))))
   
-;;;
-;End Sorting Procedures
-;;;
+(let ((result (helper graph visited)))
+      (define (level-one-flatten tree)
+      (cond ((empty? tree) '())
+            ((not (list? (car tree))) (list tree))
+            (else (append (level-one-flatten (first tree)) (level-one-flatten (rest tree))))))
+  (level-one-flatten result)))
+
+  
+  ;;;
+  ;End Sorting Procedures
+  ;;;
   
 ;;;
 ;Test Procedures used in the debugging process

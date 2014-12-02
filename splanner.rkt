@@ -292,7 +292,7 @@
          (displayln "Please enter the target course number.")
          (let* ((course-no (read-line))
                 (target (get-course-from-number course-no))
-                (dependency-list (all-prereqs target))
+                (dependency-list (set->list (list->set (all-prereqs target))))
                 (course-graph (make-graph-with-edges dependency-list))
                 (all-sorts (all-topological-sorts course-graph)))
            

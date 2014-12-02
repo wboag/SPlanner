@@ -38,23 +38,17 @@ http://ocw.mit.edu/courses/mathematics/18-024-multivariable-calculus-with-theory
 18.01 Single Variable Calculus or equivalent and permission of the instructor.
 18.01
 ----------
-Differential Equations (Fall 2011)
-18.03SC
-http://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/
-COULD-NOT-FIND-SYLLABUS
-18.014 18.02 18.024
-----------
 Differential Equations (Spring 2010)
 18.03
 http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/
 COULD-NOT-FIND-PREREQUISITES
-18.014 18.02 18.024
+18.02 18.014 18.024
 ----------
 Honors Differential Equations (Spring 2009)
 18.034
 http://ocw.mit.edu/courses/mathematics/18-034-honors-differential-equations-spring-2009/
 Multivariable Calculus (18.02) or other versions of Multivariable Calculus (18.02A or 18.022 or 18.023 or 18.024).
-18.014 18.02 18.024
+18.02 18.014 18.024
 ----------
 Complex Variables with Applications (Fall 2003)
 18.04

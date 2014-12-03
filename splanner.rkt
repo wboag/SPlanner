@@ -89,22 +89,6 @@
 
 
 
-; accumulate prereq closure
-(define (all-prereqs course)
-  (let ((prereqs (course->prereqs-list course)))
-    (if (null? prereqs)
-        '()
-        ; add current prereqs to return value and get transitive closure
-        ; NOTE: hack of taking first course from OR relationship
-        (append
-         (map (lambda (c) (list (car c) (course-number course)))
-              prereqs)
-         (foldl append '() (map (lambda (c-num)
-                                  (all-prereqs 
-                                   (get-course-from-number 
-                                    (car c-num))))
-                                prereqs))))))
-
 
 
 

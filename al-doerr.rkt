@@ -9,6 +9,7 @@
 (provide course->prereqs-list)
 (provide get-course-from-number)
 (provide course->prereq-courses)
+(provide all-prereqs)
 
 
 ; List of loaded courses
@@ -165,5 +166,71 @@
 
 
 
+
+
+; accumulate prereq closure
+(define (all-prereqs course)
+  (let ((prereqs (course->prereqs-list course)))
+    (if (null? prereqs)
+        '()
+        ; add current prereqs to return value and get transitive closure
+        ; NOTE: hack of taking first course from OR relationship
+        (append
+         (map (lambda (c) (list (car c) (course-number course)))
+              prereqs)
+         (foldl append '() (map (lambda (c-num)
+                                  (all-prereqs 
+                                   (get-course-from-number 
+                                    (car c-num))))
+                                prereqs))))))
+
+
+
+; return the list lst with the item removed (if it was even there originally)
+(define (remove-item lst item)
+  (if (member item lst)
+      (append (cdr (member item          lst ))
+              (cdr (member item (reverse lst))))
+      lst))
+
+
+; Determine if c1 is in c2's transitive closure
+; bredth-first search
+(define (is-ancestor? c1 c2)
+  ; don't directly check top-level prereqs
+  (let* ((num (course-number c1))
+         (prereqs (map car (course->prereqs-list c2)))
+         (excluded (remove-item prereqs num)))
+    ; search all children and return true if ANY find path
+    (foldl (lambda (a b) (or a b))
+           false
+           (map (lambda (p)
+                  (bredth-first c1 (get-course-from-number p)))
+                prereqs))))
+
+(define (bredth-first c1 c2)
+  (let ((prereqs (map car (course->prereqs-list c2))))
+    (cond 
+      ((empty? prereqs)
+       false)
+      ((member (course-number c1) prereqs)
+       true)
+      (else
+       ; search all children and return true if ANY find path
+       (foldl (lambda (a b) (or a b))
+             false
+             (map (lambda (p)
+                    (bredth-first c1 (get-course-from-number p)))
+                  prereqs))))))
+
+
+
 (define (course->prereq-courses c)
-  (map get-course-from-number (map car (course->prereqs-list c))))
+  (filter (lambda (course)
+            (not (is-ancestor? course c)))
+          (map get-course-from-number
+               (map car (course->prereqs-list c)))))
+
+
+
+(define c (get-course-from-number "6.011"))

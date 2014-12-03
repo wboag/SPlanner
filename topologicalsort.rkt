@@ -330,10 +330,7 @@
           (let ((sources (filter (lambda (vertex)
                            (equal? (length (get-incoming-edges newer-graph vertex)) 0)) vertices)))
             (if (equal? (length vertices) 0)
-                (begin
-                  (display visited)
-                  (newline)
-                  visited)
+                visited
                 (if (equal? (length sources) 0)
                     (begin
                       (display "Error:  The provided graph contains a cycle, and cannot be topologically sorted.")

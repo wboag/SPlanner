@@ -10,7 +10,7 @@
 (define TXT 15)
 
 (define (vis-prereq str len)
-  (let* [(circ (colorize (disk (* len TXTSIZE)) "orange"))
+  (let* [(circ (colorize (disk (* len TXTSIZE) #:draw-border? #f) "orange"))
          (txt (text str null TXT 0))]
     (cc-superimpose circ txt)))
 

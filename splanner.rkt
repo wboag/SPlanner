@@ -9,13 +9,14 @@
 
 #lang racket
 
-
+(require pict)
+(require pict/tree-layout)
 (require "course.rkt")
 (require "scraper.rkt")
 (require "al-doerr.rkt")
 (require "topologicalsort.rkt")
 (require "util.rkt")
-
+(require "vis.rkt")
 
 (define courses (get-courses))
 
@@ -140,8 +141,11 @@
                                           (map get-course-from-number s))
                                         all-sorts))
                 (best-sort-courses (argmin coherence all-sorts-courses))
-                (best-sort-nums (map course-number best-sort-courses)))
-           (displayln best-sort-nums)
+                (best-sort-nums (map course-number best-sort-courses))
+                (maxlen (apply max (map string-length best-sort-nums)))
+                (vis-courses (vis-level-from-top best-sort-courses maxlen))
+                (vis-tree (linewidth 3 (naive-layered vis-courses #:y-spacing 5))))
+           (print vis-tree)
            (newline)
            (repl))))
       

@@ -163,7 +163,7 @@ Introduction to Algorithms (SMA 5503)
 http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/
 A strong understanding of programming and a solid background in discrete mathematics, including probability, are necessary prerequisites to this course.
 6.01
-6.046J
+6.042J
 ----------
 Computational Biology: Genomes, Networks, Evolution (Fall 2008)
 6.047

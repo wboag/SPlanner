@@ -21,81 +21,12 @@
 (define courses (get-courses))
 
 
-; ANNOTATED
-; mathematics
-; electrical-engineering-and-computer-science
-
-
-#|
-; list of undergraduate courses (as course objects)
-;(define dept "electrical-engineering-and-computer-science")
-(define dept "linguistics-and-philosophy")
-(define all-courses (department->courses dept))
-;(displayln all-courses)
-
-(cond ((not (equal? all-courses 'BAD-QUERY))
-       (set! courses (filter (lambda (c) 
-                                 (equal? "Undergraduate" (course-level c)))
-                               all-courses))
-
-       ;(set! courses (filter (lambda (c)
-       ;                        (equal? "6.837" (course-number c)))
-       ;                        courses))
-       
-       ; list of all of the official course numbers
-       ;(define course-numbers (map course-number        courses))
-       
-       ; list of prerequisite descrptions
-       ;(define prereq-texts   (map course->prereqs-text courses))
-       
-       ; list of (list of prerequisites for each course)
-       ;(define prereq-lists   (map course->prereqs-list courses))
-       
-       #|
-       ; display data
-       (for-each (lambda (c t) 
-                   (displayln (course-name   c)) 
-                   (displayln (course-number c))
-                   (displayln (course-url    c))
-                   (displayln t)
-                   (displayln "----------")) 
-                 courses prereq-texts)
-       |#
-       
-       
-       #|
-       (for-each (lambda (c t p) 
-                   (if (equal? p p)
-                       (begin
-                         (displayln (course-name   c)) 
-                         (displayln (course-number c))
-                         (displayln (course-url    c))
-                         (displayln t)
-                         (displayln p)
-                         (displayln "----------")
-                         ) 
-                       void))
-                 courses prereq-texts prereq-lists)
-       |#
-       
-       
-       void))
-|#
-
-
-
-
 
 (set! courses (department->courses "electrical-engineering-and-computer-science"))
 
 
 
-
-
-
-; REPL
-; TODO: Add lots of different commands 
-;       ex. (get class from number, lookup number from keywords, etc)
+; driver
 (define (repl)
   (displayln "What action would you like to select? ")
   (let
